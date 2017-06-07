@@ -5,6 +5,7 @@
 - Changes can be committed locally, then synced to a remote server any time...or never.
 - Branching is easy and robust.
 - It's worth learning just because of its extensive community and adoption.
+- And it's worth learning the Command line version, especially because it's the most powerful.
 
 # Download and install Git
 ## Windows
