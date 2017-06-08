@@ -94,5 +94,14 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 
 
 # Links
-[Git documentation](https://git-scm.com/docs)
+Git documentation:  [https://git-scm.com/docs](https://git-scm.com/docs)
+
+What is Git? (Visual Studio):  [https://www.visualstudio.com/learn-git/](https://www.visualstudio.com/learn-git/)
+
+What is Git? (Atlassian):  [https://www.atlassian.com/git/tutorials/what-is-git](https://www.atlassian.com/git/tutorials/what-is-git)
+
+Git Tutorial (Visual Studio):  [https://www.visualstudio.com/en-us/docs/git/gitquickstart](https://www.visualstudio.com/en-us/docs/git/gitquickstart)
+
+This class:  [https://github.com/aadrew/git-class](https://github.com/aadrew/git-class)
+
 
