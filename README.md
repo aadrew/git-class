@@ -26,46 +26,39 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 # Commands: local
 ![xkcd Git cartoon](https://imgs.xkcd.com/comics/git.png "xkcd: Git")
 
-## Creating a repository
+## Create a repository
         git init
 
 ## View file changes
         git status
 
 ## Discard changes
-        git checkout *
-        git checkout <file>
+        git checkout [ * | <file> ]
         
-## Adding files to a commit
-### One file
-        git add <file>
-        
-### All changed files
-        git add .
-        git add *
+## Add files to a commit
+        git add [ * | <file> ]
 
-## Removing files from a commit
-### One file
-        git reset <file>
+## Remove files from a commit
+        git reset [ * | <file> ]
         
-### All staged files
-        git reset
-
-## Committing changes
+## Commit changes
         git commit -m "commit message"
 
 ## View commit history
         git log
 
-## Creating a branch
+## Create a branch
         git branch <branch name>
 
-## Switching to a branch
+## Switch to a branch
         git checkout <branch name>
+        
+## Create and switch to a branch
         git checkout -b <branch name>
 
-## Merging
-        git merge <branch>
+## Merge branch-A onto branch-B
+        git branch branch-B
+        git merge branch-A
 
 ## Removing a commit
         git revert <commit>
