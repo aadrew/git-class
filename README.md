@@ -46,6 +46,7 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 
 ## View commit history
         git log
+        git log --graph --oneline --all
 
 ## Create a branch
         git branch <branch name>
