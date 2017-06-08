@@ -97,6 +97,8 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 
 [C#](https://www.gitignore.io/api/csharp)
 
+[Angular](https://www.gitignore.io/api/angular)
+
 # Links
 Git documentation:  [https://git-scm.com/docs](https://git-scm.com/docs)
 
