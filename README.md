@@ -56,9 +56,9 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 ## Create and switch to a branch
         git checkout -b <branch name>
 
-## Merge branch-A onto branch-B
-        git branch branch-B
-        git merge branch-A
+## Merge branch-B onto branch-A
+        git checkout branch-A
+        git merge branch-B
 
 ## Removing a commit
         git revert <commit>
