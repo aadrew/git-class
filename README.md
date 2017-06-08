@@ -61,10 +61,10 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
         git checkout branch-A
         git merge branch-B
 
-## Removing a commit
+## Remove a commit
         git revert <commit>
 
-## Rolling back...
+## Roll back...
 ### ...to a prior commit but leaving the working directory alone
         git reset <commit>
 ### ...to the most recent commit and overwriting the working directory
