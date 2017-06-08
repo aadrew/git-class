@@ -91,11 +91,11 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 [IntelliJ](https://www.jetbrains.com/help/idea/2017.1/using-git-integration.html)
 
 # .gitignore
-gitignore.io [https://www.gitignore.io/](https://www.gitignore.io/)
+[gitignore.io](https://www.gitignore.io/)
 
-Java [https://www.gitignore.io/api/java](https://www.gitignore.io/api/java)
+[Java](https://www.gitignore.io/api/java)
 
-C# [https://www.gitignore.io/api/csharp](https://www.gitignore.io/api/csharp)
+[C#](https://www.gitignore.io/api/csharp)
 
 # Links
 Git documentation:  [https://git-scm.com/docs](https://git-scm.com/docs)
