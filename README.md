@@ -14,12 +14,12 @@ Download and install [Git for Windows](https://git-scm.com/download/win) , which
 ## Mac OS X
 Use [Homebrew](http://brew.sh/) to install and set up Git.
 
-```brew install git```
+        brew install git
 
 ## Linux and Unix
 Use your distribution's package management system to download and install Git. For example, on Ubuntu:
 
-```sudo apt-get install git```
+        sudo apt-get install git
 
 Refer to the [list of install commands](https://git-scm.com/download/linux) for the most up to date instructions for your Linux distribution.
 
