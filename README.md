@@ -32,15 +32,22 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 ## View file changes
         git status
 
+## Discard changes
+        git checkout *
+        git checkout <file>
+        
 ## Adding files to a commit
 ### One file
         git add <file>
+        
 ### All changed files
-        git add .        
+        git add .
+        git add *
 
 ## Removing files from a commit
 ### One file
         git reset <file>
+        
 ### All staged files
         git reset
 
