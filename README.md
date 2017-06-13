@@ -105,24 +105,6 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
         
         git config --global core.editor ["code" | '"<path to executable>"' ]
 Global configuration is located in:  ```%userprofile%\.gitconfig```
-```
-[diff]
-    tool = vsdiffmerge
-[difftool]
-      prompt = false
-[difftool "vsdiffmerge"]
-      cmd = '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsDiffMerge.exe"' "$LOCAL" "$REMOTE" //t
-      keepbackup = false
-      trustexitcode = true
-[merge]
-      tool = vsdiffmerge
-[mergetool]
-      prompt = false
-[mergetool "vsdiffmerge"]
-      cmd = '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsDiffMerge.exe"' "$REMOTE" "$LOCAL" "$BASE" "$MERGED" //m
-      keepbackup = false
-      trustexitcode = true
-```
 
 # Links
 Git documentation:  [https://git-scm.com/docs](https://git-scm.com/docs)
