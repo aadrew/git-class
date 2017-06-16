@@ -35,14 +35,6 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
 ## Add files to a commit
         git add [ * | <file> ]
 
-## Discard changes
-        git reset --soft                // only moves head within the current branch
-        git reset                       // ... also discards staged (tracked) changes
-        git reset --hard                // ... also discards unstaged (tracked) changes
-        git clean -f                    // discards untracked changes
-        
-        git reset [ commit | HEAD ]     // reset to a prior commit or offset of HEAD
-                
 ## Commit changes
         git commit -m "commit message"
 
@@ -63,7 +55,15 @@ Refer to the [list of install commands](https://git-scm.com/download/linux) for 
         git checkout branch-A
         git merge branch-B
 
-## Remove a commit
+## Discard changes
+        git reset --soft                // only moves head within the current branch
+        git reset                       // ... also discards staged (tracked) changes
+        git reset --hard                // ... also discards unstaged (tracked) changes
+        git clean -f                    // discards untracked changes
+        
+        git reset [ commit | HEAD ]     // reset to a prior commit or offset of HEAD
+                
+## Discard a commit
         git revert <commit>
 
 # Commands: remote
